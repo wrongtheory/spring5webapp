@@ -11,7 +11,7 @@ import java.util.Set;
 @Entity
 public class Author {
 
-    @Id
+    @Id //database
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String firstName;
