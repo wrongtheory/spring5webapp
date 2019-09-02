@@ -11,7 +11,7 @@ import java.util.Set;
 @Entity
 public class Book {
     @Id //id database
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO) //database
     private Long id;
     private String title;
     private String isbn;
